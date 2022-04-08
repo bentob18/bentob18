@@ -1,10 +1,10 @@
 /*
 * Amigas na Escola II- Problema de L�gica
-* Cinco amigas est�o na escola.
-* Encontre a mat�ria preferida e a cidade brasileira que passar�o as pr�ximas f�rias.
-*Al�m disso, encontre seus animais e sucos favoritos e a cor de suas
+* Cinco amigas estao na escola.
+* Encontre a materia preferida e a cidade brasileira que passar�o as pr�ximas f�rias.
+*Alem disso, encontre seus animais e sucos favoritos e a cor de suas
 mochilas.
-* S�o: * 05 colunas * 06 linhas * 23 instru��es
+* Sao: * 05 colunas * 06 linhas * 23 instrucoes
 * Fonte:
 https://rachacuca.com.br/logica/problemas/amigas-na-escola-ii/
 */
