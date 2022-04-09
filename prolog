@@ -37,8 +37,8 @@ modelo([
         (Nome_5, Mochila_5, Materia_5, Animal_5, Lugar_5, Suco_5)
        ]) :-
 
-        % Vamos analisar cada uma das instru��es do problema,
-        % sem seguir uma ordem pr�-definida.
+        % Vamos analisar cada uma das instrucoes do problema,
+        % sem seguir uma ordem pre-definida.
 
 
 
