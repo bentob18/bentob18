@@ -1,7 +1,7 @@
 /*
-* Amigas na Escola II- Problema de L�gica
+* Amigas na Escola II- Problema de Logica
 * Cinco amigas estao na escola.
-* Encontre a materia preferida e a cidade brasileira que passar�o as pr�ximas f�rias.
+* Encontre a materia preferida e a cidade brasileira que passarao as proximas ferias.
 *Alem disso, encontre seus animais e sucos favoritos e a cor de suas
 mochilas.
 * Sao: * 05 colunas * 06 linhas * 23 instrucoes
@@ -49,11 +49,11 @@ modelo([
             nome(Nome_4),
             nome(Nome_5),
 
-%22) A Beatriz est� sentada no meio.
+%22) A Beatriz esta sentada no meio.
 (Nome_3==beatriz),
 
 
-%23) A Patr�cia est� sentada na primeira cadeira.
+%23) A Patricia esta sentada na primeira cadeira.
 (Nome_1==patricia),
 
            alldifferent([Nome_1, Nome_2, Nome_3, Nome_4, Nome_5]),
@@ -66,12 +66,12 @@ modelo([
            suco(Suco_5),
 
 
-%1) A menina que gosta de suco de Laranja est� em um dos cantos
+%1) A menina que gosta de suco de Laranja esta em um dos cantos
 (Suco_1==laranja ; Suco_5==laranja),
 
            alldifferent([Suco_1, Suco_2, Suco_3, Suco_4, Suco_5]),
 
-%4) A Isabelle est� sentada ao lado de quem gosta de suco de Laranja.
+%4) A Isabelle esta sentada ao lado de quem gosta de suco de Laranja.
 (
 (Nome_1==isabelle, Suco_2==laranja);
 (Nome_2==isabelle,(Suco_1==laranja; Suco_3==laranja));
@@ -90,7 +90,7 @@ modelo([
           animal(Animal_5),
 
 
-%2) Quem gosta de suco de Maracuj� est� sentada em algum lugar entre quem gosta de cavalos e quem gosta de suco de Morango, nessa ordem.
+%2) Quem gosta de suco de Maracuja esta sentada em algum lugar entre quem gosta de cavalos e quem gosta de suco de Morango, nessa ordem.
 (
 (Animal_1==cavalo,(Suco_2==maracuja; Suco_3==maracuja; Suco_4==maracuja),Suco_5==morango);
 (Animal_1==cavalo,(Suco_2==maracuja; Suco_3==maracuja),Suco_4==morango);
@@ -110,7 +110,7 @@ modelo([
           mochila(Mochila_5),
 
 
-%3) A menina que gosta de suco de Lim�o est� sentada ao lado da que tem
+%3) A menina que gosta de suco de Limao esta sentada ao lado da que tem
 % a mochila Vermelha.
 (
 (Suco_1==limao, Mochila_2==vermelha);
@@ -144,7 +144,7 @@ modelo([
           alldifferent([Lugar_1, Lugar_2, Lugar_3, Lugar_4, Lugar_5]),
 
 
-%6) A Aline est� sentada exatamente � esquerda de quem viajar� para Manaus.
+%6) A Aline esta sentada exatamente a esquerda de quem viajara para Manaus.
 
 (
 (Lugar_2==manaus, Nome_1==aline);
@@ -153,7 +153,7 @@ modelo([
 (Lugar_5==manaus, Nome_4==aline)
   ),
 
-%7) Quem vai para Florian�polis est� sentada em algum lugar � direita da Aline.
+%7) Quem vai para Florianopolis esta sentada em algum lugar a direita da Aline.
 
 (
 (Nome_1==aline, (Lugar_2==florianopolis; Lugar_3==florianopolis; Lugar_4==florianopolis; Lugar_5==florianopolis));
@@ -163,7 +163,7 @@ modelo([
   ),
 
 
-%8) Quem vai viajar� para o Recife est� sentada em um dos cantos.
+%8) Quem vai viajar para o Recife esta sentada em um dos cantos.
 (Lugar_1==recife; Lugar_5==recife),
 
           %%%%%%%%%%%%%%%%%%%%%%%% Materia
@@ -186,7 +186,7 @@ modelo([
          alldifferent([Materia_1, Materia_2, Materia_3, Materia_4, Materia_5]),
 
 
-%10 )Ao lado de quem gosta de Gatos est� sentada a menina com a mochila
+%10 )Ao lado de quem gosta de Gatos esta sentada a menina com a mochila
 % Branca.
 (
 (Mochila_1==branco, Animal_2==gato);
@@ -196,10 +196,10 @@ modelo([
 (Mochila_5==branco, Animal_4==gato)
   ),
 
-%11) A menina que gosta de p�ssaros est� sentada em uma das pontas.
+%11) A menina que gosta de passaros esta sentada em uma das pontas.
 (Animal_1=passaro ; Animal_5==passaro),
 
-%12) Quem gosta de Hamsters est� sentada ao lado de quem gosta de
+%12) Quem gosta de Hamsters esta sentada ao lado de quem gosta de
 % Cachorros.
 (
 (Animal_1==hamster, Animal_2==cachorro);
@@ -210,8 +210,8 @@ modelo([
   ),
 
 
-%13) Ao lado de quem tem a mochila Branca est� a menina que gosta de
-% P�ssaros.
+%13) Ao lado de quem tem a mochila Branca esta a menina que gosta de
+% Passaros.
 (
 (Animal_1==passaro, Mochila_2==branco);
 (Animal_2==passaro, (Mochila_1==branco; Mochila_3==branco));
@@ -221,11 +221,11 @@ modelo([
   ),
 
 
-%14) Quem gosta de Cachorros est� sentada na extrema direita.
+%14) Quem gosta de Cachorros esta sentada na extrema direita.
 (Animal_5==cachorro),
 
 
-%15) A menina que adora Matem�tica est� sentada ao lado de quem gosta de
+%15) A menina que adora Matematica esta sentada ao lado de quem gosta de
 % Cavalos.
 (
 (Materia_1==matematica, Animal_2==cavalo);
@@ -235,7 +235,7 @@ modelo([
 (Materia_5==matematica, Animal_4==cavalo)
   ),
 
-%16) Quem usa a mochila Verde adora estudar Hist�ria.
+%16) Quem usa a mochila Verde adora estudar Historia.
 (
 (Mochila_1==verde, Materia_1==historia);
 (Mochila_2==verde, Materia_2==historia);
@@ -245,7 +245,7 @@ modelo([
   ),
 
 
-%17) A Aline adora estudar Portugu�s.
+%17) A Aline adora estudar Portugues.
 (
 (Nome_1==aline, Materia_1==portugues);
 (Nome_2==aline, Materia_2==portugues);
@@ -254,7 +254,7 @@ modelo([
 (Nome_5==aline, Materia_5==portugues)
   ),
 
-%18) Quem gosta de Matem�tica est� sentada exatamente � esquerda de
+%18) Quem gosta de Matematica esta sentada exatamente a esquerda de
 % quem gosta de Hamsters.
 
 (
@@ -264,7 +264,7 @@ modelo([
 (Materia_4==matematica, Animal_5==hamster)
    ),
 
-%19) A menina da mochila Vermelha est� sentada exatamente � esquerda de quem gosta de Biologia.
+%19) A menina da mochila Vermelha esta sentada exatamente a esquerda de quem gosta de Biologia.
 
 (
 (Mochila_1==vermelha, Materia_2==biologia);
@@ -283,7 +283,7 @@ modelo([
 (Mochila_5==azul, Materia_5==biologia)
    ),
 
-%21) A Aline est� sentada em algum lugar entre quem vai para o Recife e quem tem a mochila Verde, nessa ordem.
+%21) A Aline esta sentada em algum lugar entre quem vai para o Recife e quem tem a mochila Verde, nessa ordem.
 
 (
 (Lugar_1==recife, (Nome_2==aline; Nome_3==aline; Nome_4==aline), Mochila_5==verde);
