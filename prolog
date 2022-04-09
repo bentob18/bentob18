@@ -329,7 +329,7 @@ modelo([
         lugar(salvador).
         lugar(riodejaneiro).
 
-        %MAT�RIAS
+        %MATERIAS
         materia(artes).
         materia(biologia).
         materia(historia).
