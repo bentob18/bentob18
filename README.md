@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @bentob18
 - 👀 I’m interested in data science, python, artificial intelligence and R
 - 🌱 I’m currently learning data science and machine learning
-- 💞️ I’m looking to collaborate on developing codes and data science
+- 💞️ I’m looking to collaborate on developing codes and studying data science
 - 📫 How to reach me @bentob18 on instagram and twitter, feel free to DM me about codes ;)
 
 <!---
