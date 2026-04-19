@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **bento.barbosa77@gmail.com**
 
-- 📄 To know about my experiences you can send me an e-mail so i can send my CV or look at my repositories for a sample at [https://github.com/bentob18](https://github.com/bentob18)
+- 📄 Send me an e-mail to know about my CV or look at my repositories for a sample at [https://github.com/bentob18](https://github.com/bentob18)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
