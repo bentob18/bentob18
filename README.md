@@ -1,15 +1,15 @@
 ![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 <h1 align="center">Hi 👋, I'm Bento Barbosa</h1>
-<h3 align="center">A passionate Data Engineering and Data Science student from Brazil</h3>
+<h3 align="center">A passionate Data Science and Machine Learning professional from Brazil</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-- 🌱 I’m currently learning **Data mining and Data Engineering**
+- 🌱 I’m currently working with **AI Development and Data Science**
 
 - 👨‍💻 All of my projects are available at [https://github.com/bentob18](https://github.com/bentob18)
 
 - 📫 How to reach me **bento.barbosa77@gmail.com**
 
-- 📄 Know about my experiences [https://github.com/bentob18](https://github.com/bentob18)
+- 📄 To know about my experiences you can send me an e-mail so i can send my CV or look at my repositories for a sample at [https://github.com/bentob18](https://github.com/bentob18)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
